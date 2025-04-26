@@ -1,0 +1,21 @@
+[package]
+name = "xtask"
+version = "0.0.0"
+description = "Xtask for Pogor OS"
+
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+
+[dependencies]
+# non-local crates
+
+# local crates
+
+[dev-dependencies]
+# non-local crates
+
+# local crates
+
