@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "vitest.explorer",
+        "rust-lang.rust-analyzer",
+        "vadimcn.vscode-lldb",
+        "tamasfe.even-better-toml",
+        "amodio.tsl-problem-matcher",
+        "ms-vscode.extension-test-runner",
+        "EditorConfig.EditorConfig",
+    ]
+}

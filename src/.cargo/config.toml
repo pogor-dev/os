@@ -1,0 +1,7 @@
+[alias]
+xtask = "run --package xtask --bin xtask --"
+lint = "clippy --all-targets -- --cap-lints warn"
+
+# [unstable]
+# build-std = ["core", "compiler_builtins", "alloc"]
+# build-std-features = ["compiler-builtins-mem"]

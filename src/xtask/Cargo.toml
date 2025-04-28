@@ -11,6 +11,9 @@ repository.workspace = true
 
 [dependencies]
 # non-local crates
+anyhow.workspace = true
+duct.workspace = true
+bootloader.workspace = true
 
 # local crates
 
@@ -19,3 +22,5 @@ repository.workspace = true
 
 # local crates
 
+[lints]
+workspace = true

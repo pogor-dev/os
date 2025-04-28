@@ -11,10 +11,23 @@ repository = "https://github.com/pogor-dev/os"
 
 [workspace.dependencies]
 # non-local crates
+anyhow = "1.0.98"
+bootloader = "0.11.10"
+bootloader_api = "0.11.10"
+duct = "0.13.7"
 
 # local crates
 kernel = { path = "./crates/kernel", version = "0.0.0" }
 
+[profile.dev]
+incremental = true
+panic = "abort"
+overflow-checks = false
+
+[profile.release]
+panic = "abort"
+lto = true
+codegen-units = 1
 
 [workspace.lints.rust]
 elided_lifetimes_in_paths = "warn"
